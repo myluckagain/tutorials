@@ -1,14 +1,11 @@
-package com.baeldung.designpatterns.observer.util;
+package com.baeldung.designpatterns.observer;
 
-import java.util.Observable;
-import java.util.Observer;
-
-public class NewsChannel implements Observer {
+public class NewsChannel implements Channel {
 
     private String news;
 
     @Override
-    public void update(Observable o, Object news) {
+    public void update(Object news) {
         this.setNews((String) news);
     }
 

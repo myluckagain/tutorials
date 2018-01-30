@@ -1,14 +1,14 @@
-package com.baeldung.designpatterns.observer.beans;
+package com.baeldung.designpatterns.observer;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-public class NewsAgency {
+public class PCLNewsAgency {
     private String news;
 
     private PropertyChangeSupport support;
 
-    public NewsAgency() {
+    public PCLNewsAgency() {
         support = new PropertyChangeSupport(this);
     }
 

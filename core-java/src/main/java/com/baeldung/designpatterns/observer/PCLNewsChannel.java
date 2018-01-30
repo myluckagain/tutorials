@@ -1,9 +1,9 @@
-package com.baeldung.designpatterns.observer.beans;
+package com.baeldung.designpatterns.observer;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-public class NewsChannel implements PropertyChangeListener {
+public class PCLNewsChannel implements PropertyChangeListener {
 
     private String news;
 

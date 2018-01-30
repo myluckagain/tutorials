@@ -1,8 +1,8 @@
-package com.baeldung.designpatterns.observer.util;
+package com.baeldung.designpatterns.observer;
 
 import java.util.Observable;
 
-public class NewsAgency extends Observable {
+public class ONewsAgency extends Observable {
     private String news;
 
     public void setNews(String news) {

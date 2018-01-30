@@ -1,4 +1,4 @@
-package com.baeldung.designpatterns.observer.our;
+package com.baeldung.designpatterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;
